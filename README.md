@@ -2,7 +2,7 @@
 ```mermaid
 sequenceDiagram
 User ->> Instamint: Login
-Instamint->> Instamint: Create assets with Designer
+Instamint->> Instamint: Design assets on Designer 
 Instamint ->> Infura: Mint
 Infura ->> Instamint: CID
 Instamint ->> Stellar: Asset Infomation
